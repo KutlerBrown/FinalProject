@@ -1,0 +1,102 @@
+body, div, p, h1, h2 {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #ddd;
+    padding: 90px 15vw 70px 15vw;
+}
+#header {
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 0px 15vw;
+}
+#content{
+    background-color: #ccc;
+    padding: 1px 20px 1px 20px;
+}
+#message{
+    background-color: #fff;
+    padding: 10px;
+    margin: 20px 0;
+    
+}
+#messageData{
+    display: flex;
+}
+#messageData p{
+    flex-grow: 1;
+}
+#messageData div{
+    margin: 0 5px;
+    color: rgb(86, 215, 255);
+}
+#messageData div:hover{
+    cursor: pointer;
+}
+#footer{
+    background-color: #eee;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 66vw;
+    margin: 0px 15vw;
+    padding: 20px 20px 0 20px;
+}
+
+#flexbox{
+    display: flex;
+    align-items: stretch;
+}
+#flexbox input{
+    padding: 5px;
+    margin: 0 5px;
+}
+#displayName{
+    flex: 1;
+}
+#comment{
+    flex: 7;
+}
+#submitButton{
+    flex: 1;
+    border: 0;
+    color: rgb(86, 215, 255);
+    font-size: 15px;
+}
+#submitButton:hover {
+    border: 1px solid rgb(86, 215, 255);
+    cursor: pointer;
+}
+#flexbox2 {
+    display:flex;
+    margin: 5px;
+    color: #eee;
+}
+#flexbox2 p{
+    flex: 1;
+}
+#editBar {
+    padding: 5px;
+}
+#editText{
+    width: 55vw;
+    padding: 5px;
+}
+#editSubmit{
+    padding: 5px;
+    margin-left: 3vw;
+    background-color: white;
+    border: 0;
+    color: rgb(86, 215, 255);
+    font-size: 15px;
+}
+#editSubmit:hover{
+    border: 1px solid rgb(86, 215, 255);
+    cursor: pointer;
+}
+.redColor {
+    color: red;
+}
